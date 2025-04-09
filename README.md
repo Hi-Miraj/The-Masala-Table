@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
+# 🍛 The Masala Table
 
-## Project info
+**The ultimate hub for rich, authentic Indian cuisine**  
+If you're looking for the most detailed, delicious, and deeply rooted recipes from all across India — you've come to the right place.  
+**MasalaTime is your go-to spot for the best food in the world.**
 
-**URL**: https://lovable.dev/projects/781fe957-1b91-4e6f-b5b1-39c9dcde3495
+---
 
-## How can I edit this code?
+## ✨ Overview
 
-There are several ways of editing your application.
+**The Masala Table** is a modern web application built to showcase, organize, and share traditional Indian recipes with a fresh, developer-friendly twist. From classic curries to street-style snacks, every dish includes detailed steps, cultural notes, and a flavorful story behind it.
 
-**Use Lovable**
+This project is perfect for:
+- 🧑‍🍳 Food lovers & home chefs
+- 🧑‍💻 Devs wanting to contribute to a spicy frontend
+- 🌍 Anyone curious about Indian culinary diversity
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/781fe957-1b91-4e6f-b5b1-39c9dcde3495) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔧 Tech Stack
 
-**Use your preferred IDE**
+Built with modern frontend tools for speed, scalability, and style:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚡ [Vite](https://vitejs.dev/) – Blazing fast bundler
+- ⚛️ [React](https://react.dev/) – Component-based UI
+- 💅 [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
+- 🧠 [TypeScript](https://www.typescriptlang.org/) – Static typing for JavaScript
+- 🎨 [shadcn/ui](https://ui.shadcn.com/) – Prebuilt stylish components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+You can run the project locally using your preferred IDE. Changes you push will be reflected in Lovable or any connected deployment platform.
+
+### ✅ Requirements
+
+- Node.js and npm (we recommend using [nvm](https://github.com/nvm-sh/nvm) for version control)
+
+### 📦 Setup Instructions
+
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Your app will now be available at [http://localhost:5173](http://localhost:5173) with live reloading.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # UI components
+│   ├── pages/            # Route-based pages
+│   ├── recipes/          # Markdown recipe files
+│   ├── styles/           # Global styles
+│   └── main.tsx          # Entry point
+├── index.html
+├── tailwind.config.ts
+├── vite.config.ts
+└── package.json
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🚀 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can deploy this project on:
 
-## How can I deploy this project?
+- [**Vercel**](https://vercel.com) (Recommended)
+- [**Netlify**](https://netlify.com)
+- [**GitHub Pages**](https://pages.github.com)
+- 
+---
 
-Simply open [Lovable](https://lovable.dev/projects/781fe957-1b91-4e6f-b5b1-39c9dcde3495) and click on Share -> Publish.
+## 🍴 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+We'd love your help! Whether it’s a recipe, a UI tweak, or a typo fix — contributions are always welcome.
 
-Yes it is!
+### How to Contribute
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/your-change`)
+3. Commit your changes (`git commit -m "Add: delicious butter chicken recipe"`)
+4. Push to the branch (`git push origin feature/your-change`)
+5. Open a Pull Request ✅
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> Don’t forget to format your recipe using our template inside the `src/recipes/` folder.
+
+---
+
+## 🙏 Acknowledgements
+
+Thanks to every home cook, spice master, and culinary storyteller who makes Indian food what it is. This project is for the culture.
+
+---
+
+## 🧂 Bonus: What does “Masala” mean?
+
+> *Masala (मसाला)* = **a blend of ground spices**, used in Indian cooking to flavor food.  
+> Each region, each family, and sometimes each individual has their own special mix.  
+> That’s the heart of *The Masala Table* — a place where variety is celebrated and shared.
+
+---
